@@ -174,9 +174,7 @@
   padding-right: 40px;
   padding-bottom: 48px;
   padding-left: 40px;
-  background-image:
-  linear-gradient(rgb(0 0 0 / 60%),
-  rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(rgb(0 0 0 / 60%), rgba(0, 0, 0, 0.6));
 }
 
 /* .card__background-first {
@@ -221,7 +219,6 @@
   position: relative;
 }
 
-
 .card__image {
   position: absolute;
   top: 0;
@@ -240,16 +237,16 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
-  text-decoration: underline 1px; 
+  text-decoration: underline;
   text-underline-offset: 3px;
   text-transform: uppercase;
 }
 
 .card__text {
-color: #fff;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .lots__button {
@@ -274,7 +271,7 @@ line-height: 24px;
 .about__logo-background {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   width: 240px;
   height: 240px;
   margin-top: 35px;
