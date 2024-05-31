@@ -3,22 +3,23 @@ body {
 }
 .header {
   display: flex;
-  align-items: center;
-  padding: 96px 24px 96px 24px;
+  align-items: flex-start;
+  margin: 92px 24px 96px 24px;
 }
 
 .header__menu {
-  margin-left: 26px;
   margin-right: 36px;
+  margin-left: 26px;
+  padding-top: 47px;
 }
 
 .header__menu-list {
   display: flex;
   gap: 32px;
   font-size: 18px;
-  list-style-type: circle;
-  letter-spacing: 0.14px;
   line-height: 21px;
+  letter-spacing: 0.14px;
+  list-style-type: circle;
 }
 
 .header__menu-item {
@@ -31,19 +32,20 @@ body {
 }
 
 .header__menu-main {
-  list-style-type: none;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .header__logo-image {
-  padding: 0px 7px 0px 6px;
   width: 148px;
+  padding: 0px 7px 0px 6px;
 }
 
 .header__contacts {
   display: flex;
   flex-direction: column;
-  padding-left: 186px;
+  padding-top: 9px;
+  padding-left: 187px;
   line-height: 24px;
 }
 
@@ -52,11 +54,14 @@ body {
   font-style: normal;
 }
 
-.header__contacts-phone,
+.header__contacts-phone {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .header__contacts-mail {
   text-decoration: underline;
   text-underline-offset: 4px;
-  white-space: nowrap;
 }
 
 .cover {
@@ -67,10 +72,10 @@ body {
   margin-bottom: 179px;
   padding: 165px 50px 51px 50px;
   background-image: linear-gradient(rgb(0 0 0 / 60%), rgba(0, 0, 0, 0.6)),
-    url('../images/cover.jpg');
+    url("../images/cover.jpg");
   background-repeat: no-repeat;
-  background-size: 125%;
   background-position: -138px;
+  background-size: 125%;
 }
 
 .cover__title {
@@ -113,10 +118,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
-  text-transform: uppercase;
   padding-top: 128px;
   padding-left: 29px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .cover__text {
@@ -207,8 +212,8 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-decoration: underline;
-  text-underline-offset: 3px;
   text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   text-transform: uppercase;
 }
 
@@ -223,8 +228,8 @@ body {
   padding: 30px 0px 0px 40px;
   font-size: 20px;
   line-height: 23px;
-  text-underline-offset: 5px;
   text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
 }
 
 .about {
@@ -310,9 +315,9 @@ body {
 }
 
 .footer__menu {
-  padding: 0;
+  margin-right: 36px;
   margin-left: 73px;
-    margin-right: 36px;
+  padding: 0;
 }
 
 .footer__menu-list {
