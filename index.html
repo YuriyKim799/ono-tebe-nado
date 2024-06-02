@@ -11,16 +11,16 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header__menu">
-        <ul class="header__menu-list">
-          <li class="header__menu-item link_active">
-            <a class="header__menu-link" href="#0">главная</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li>
+            <a class="text-underline link_active" href="#0">главная</a>
           </li>
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="#0">посмотреть лоты</a>
+          <li class="list-style-circle">
+            <a class="text-underline" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="#0">об аукционе</a>
+          <li class="list-style-circle">
+            <a class="text-underline" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -29,9 +29,9 @@
         <img src="./images/logo-black.svg" alt="логотип" />
       </a>
 
-      <address class="address address__header">
-        <a class="address address-phone" href="tel:"> +9 999 555 5555 </a>
-        <a class="address address-mail" href="mailto:"> info@sobaka.ge </a>
+      <address class="contacts-info">
+        <a class="address text-underline" href="tel:+9 999 555 5555"> +9 999 555 5555 </a>
+        <a class="address text-underline" href="mailto:info@sobaka.ge"> info@sobaka.ge </a>
         <p class="address address-adress">
           наб. Принсенграхт 263- 265, Амстердам
         </p>
@@ -41,25 +41,29 @@
     <main>
       <section class="features">
         <div class="overlay"></div>
+
         <h1 class="features__title">
           <span class="aligned-text aligned-text_left">
-            <span class="letter-spacing-3"> о </span>
-            <span class="letter-spacing-extended"> но </span>
+            о
+            <span class="letter-spacing-extended">но</span>
           </span>
           <span class="aligned-text aligned-text_center">
-            те<span class="letter-spacing-extended">бе</span>
+            те
+            <span class="letter-spacing-extended">бе</span>
           </span>
           <span class="aligned-text aligned-text_right">
-            <span class="letter-spacing-19"> н </span>
-            <span class="letter-spacing-3"> a д </span>
+            <span class="letter-spacing-extended">н</span>
+           aд
             <span class="no-letter-spacing">о</span>
           </span>
         </h1>
+
         <div class="features__description">
           <p class="features__text">Аукцион вещей, в которые никто не верил</p>
-          <a class="features__button" href="#0"> Сделать ставку </a>
+          <a class="features__link" href="#0"> Сделать ставку </a>
         </div>
       </section>
+
       <section class="lots">
         <h2 class="lots__title">Лоты</h2>
         <ul class="lots__cards-container">
@@ -97,7 +101,7 @@
             </a>
           </li>
           <li>
-            <a class="display-block text-decoration-none" href="#0">
+            <a class="text-decoration-none" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -107,9 +111,9 @@
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков.
-                  <span class="card__text-span">. </span>
-                  <span class="card__text-span">. </span>
-                  Сколько бы вы на такое поставили, если бы не знали, что это —
+                  <span class="card__text-span">.</span>
+                  . Сколько бы вы на такое поставили, если бы 
+                  не знали, что это —
                   одна из революционных работ Кандинского?
                 </p>
               </article>
@@ -128,7 +132,7 @@
           />
         </div>
 
-        <article class="about__text-container">
+        <div class="about__text-container">
           <h2 class="about__title">Об аукционе</h2>
           <div class="about__text-wrapper">
             <p class="about__text about__text-top">
@@ -160,31 +164,36 @@
               И сейчас эти лоты стали культовыми.
             </p>
           </div>
-        </article>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <address class="address address__footer">
-        <a class="address address-phone" href="tel:"> +9 999 555 5555 </a>
-        <a class="address address-mail" href="mailto:"> info@sobaka.ge </a>
+
+      <address class="contacts-info">
+        <a class="address text-underline" 
+        href="tel:+9 999 555 5555"> +9 999 555 5555 </a>
+        <a class="address text-underline" 
+        href="mailto:info@sobaka.ge"> info@sobaka.ge </a>
         <p class="address address-adress">
           наб. Принсенграхт 263- 265, Амстердам
         </p>
       </address>
-      <nav class="footer__menu">
-        <ul class="footer__menu-list">
-          <li class="footer__menu-item link_active">
-            <a class="footer__menu-link" href="#0">главная</a>
+
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li>
+            <a class="text-underline link_active" href="#0">главная</a>
           </li>
-          <li class="footer__menu-item">
-            <a class="footer__menu-link" href="#0">посмотреть лоты</a>
+          <li>
+            <a class="text-underline" href="#0">посмотреть лоты</a>
           </li>
-          <li class="footer__menu-item">
-            <a class="footer__menu-link" href="#0">об аукционе</a>
+          <li>
+            <a class="text-underline" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
+
       <ul class="footer__logo-container">
         <li>
           <a href="#0">
